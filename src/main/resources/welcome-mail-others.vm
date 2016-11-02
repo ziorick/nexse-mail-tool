@@ -1,0 +1,7 @@
+
+"$name $surname" <$email>
+
+Password e dettagli di configurazione inviati con mail privata a:
+
+"$name $surname" <$personalMail>
+

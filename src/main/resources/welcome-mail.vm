@@ -1,0 +1,81 @@
+
+Buongiorno $name e benvenuto/a in Nexse!
+
+Il tuo indirizzo aziendale e' $email
+
+Di seguito i dati per accedere ai servizi di rete.
+
+-- Posta in uscita (SMTP) --
+
+  host: mx.nexse.com
+  port: 587
+  user: $email
+  pass: $password
+  security: STARTTLS
+
+-- Posta in entrata (IMAP) --
+
+  host: imap.nexse.com
+  port: 993
+  user: $email
+  pass: $password
+  security: SSL
+
+-- Web Mail --
+
+  url: https://wm.nexse.com
+  user: $email
+  pass: $password
+
+  La webmail va usata solo nel caso non sia possibile accedere
+  ai server di posta con un client tradizionale (es: Outlook,
+  Thunderbird).
+
+-- Chat --
+
+  user: $uid
+  pass: $password
+  domain: nexse.com
+  jabberId: $email
+  protocol: xmpp
+
+  Per collegarti puoi usare Pidgin[1] su Linux e Windows o
+  Adium[2] su Mac OS X. E' buona norma essere collegati
+  alla chat durante l'orario di lavoro.
+
+-- Jira, Wiki, Ecc... --
+
+url: https://jira.nexse.com
+url: http://cwiki.nexse.com
+url: https://svn.nexse.com
+url: http://scm.nexse.com
+url: http://ci.nexse.com
+url: http://sonar.nexse.com
+url: http://nexus.nexse.com
+user: $uid
+pass: $password
+
+  NB. Alcuni sistemi come ad esempio, svn , scm il wiki e jira
+  sarranno raggiungibili solo dopo la richista di autorizzazione
+  da parte del tuo capo progetto.
+
+-- Cambio Password --
+
+http://passwd.nexse.com
+
+
+L'uso della rete negli uffici di via Rava' e' consentito previa
+comunicazione dei mac address[3] dei dispositivi che si intende
+usare[4].
+
+Facci sapere se funziona tutto.
+
+Grazie e a presto.
+
+
+[1]: http://pidgin.im/
+[2]: https://adium.im/
+[3]: http://bit.ly/1cF11n3
+[4]: e' assolutamente vietato l'uso di software che consuma
+     banda eccessiva (torrent, emule, ecc).
+
